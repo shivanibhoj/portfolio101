@@ -75,7 +75,7 @@ export const Hero = () => {
                   alt="Shivani Bhoj"
                   className="w-full h-full object-cover transition-all duration-500"
                   onError={(e) => {
-                    e.currentTarget.src = 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800';
+                    e.currentTarget.src = 'shivani.png.jpeg';
                   }}
                   referrerPolicy="no-referrer"
                 />
