@@ -239,7 +239,7 @@ export default function App() {
     <div className="min-h-screen selection:bg-neon-blue/30 selection:text-white custom-scrollbar overflow-x-hidden">
       <ScrollProgressBar />
       <LoadingScreen />
-      <Triangle3DBackground />
+    /*<Triangle3DBackground />*/
       <CursorGlow />
       <Navbar />
       
