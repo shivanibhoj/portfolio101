@@ -138,14 +138,15 @@ export const Projects = () => {
           <h2 className="section-title mb-0">Projects</h2>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 grid-auto-rows-fr">
           {projects.map((project, idx) => (
             <motion.div
               key={idx}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              whileHover={{ y: -10 }}
+              whileHover={{ y: -5 }} 
+              transition={{ type: "spring", stiffness: 300, damping: 20 }}
               className="dashboard-card p-6 flex flex-col gap-6 group relative overflow-hidden"
             >
               {/* Data Pulse Effect */}
