@@ -3,9 +3,9 @@ import { motion } from 'motion/react';
 import { Award, CheckCircle } from 'lucide-react';
 
 const certifications = [
-  { name: 'Android App Development', issuer: 'LPU', date: 'Jul 2025', url: '/WhatsApp Image 2026-03-22 at 23.03.11.jpeg' },
-  { name: 'Computer Networking', issuer: 'COURSERA', date: 'Nov 2024', url: '/Coursera JTCSYKAFN4FF.pdf' },
-  { name: 'Cloud Computing', issuer: 'NPTEL', date: 'Sep 2025', url: '/WhatsApp Image 2026-03-22 at 19.34.06.jpeg' },
+  { name: 'Android App Development', issuer: 'LPU', date: 'Jul 2025', url: '/app.png' },
+  { name: 'Computer Networking', issuer: 'COURSERA', date: 'Nov 2024', url: '/test.png' },
+  { name: 'Cloud Computing', issuer: 'NPTEL', date: 'Sep 2025', url: '/nptel.png' },
   { name: 'Data Structure and Algorithm', issuer: 'LPU', date: 'Aug 2025', url: '#' },
 ];
 
