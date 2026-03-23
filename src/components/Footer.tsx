@@ -15,7 +15,7 @@ export const Footer = () => {
             <a href="https://github.com/shivanibhoj" target="_blank" className="text-white/40 hover:text-white transition-colors">
               <Github className="w-5 h-5" />
             </a>
-            <a href="www.linkedin.com/in/shivani-bhoj-510707298" target="_blank" className="text-white/40 hover:text-neon-blue transition-colors">
+            <a href="https://www.linkedin.com/in/shivani-bhoj-510707298" target="_blank" className="text-white/40 hover:text-neon-blue transition-colors">
               <Linkedin className="w-5 h-5" />
             </a>
             <a href="mailto:Shivani.bhoj10@gmail.com" className="text-white/40 hover:text-neon-purple transition-colors">
