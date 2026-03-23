@@ -6,14 +6,14 @@ import { Trophy, Zap, Award, Target, Flame, Star } from 'lucide-react';
 const statCards = [
   {
     percentage: 82,
-    value: "100+",
+    value: "250+",
     label: "LeetCode",
     subLabel: "Problems Solved",
     color: "#f97316", // Orange
   },
   {
     percentage: 78,
-    value: "100+",
+    value: "200+",
     label: "GeeksForGeeks",
     subLabel: "Problems Solved",
     color: "#10b981", // Green
