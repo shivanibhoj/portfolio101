@@ -229,7 +229,7 @@ const Triangle3DBackground = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed inset-0 pointer-events-none -z-10 bg-dark-bg"
+      className="fixed inset-0 w-screen h-screen pointer-events-none -z-10 bg-dark-bg overflow-hidden"
     />
   );
 };
