@@ -71,11 +71,11 @@ export const Hero = () => {
               {/* Photo Container */}
               <div className="absolute inset-8 rounded-full overflow-hidden border-2 border-white/10 neon-glow-blue">
                 <img 
-                  src="/src/WhatsApp Image 2026-03-16 at 18.15.53.jpeg" 
+                  src="/WhatsApp Image 2026-03-16 at 18.15.53.jpeg" 
                   alt="Shivani Bhoj"
                   className="w-full h-full object-cover transition-all duration-500"
                   onError={(e) => {
-                    e.currentTarget.src = 'shivani.png.jpeg';
+                    e.currentTarget.src = '/shivani.png.jpeg';
                   }}
                   referrerPolicy="no-referrer"
                 />
