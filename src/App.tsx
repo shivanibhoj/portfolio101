@@ -28,7 +28,7 @@ const ScrollProgressBar = () => {
 
   return (
     <motion.div
-      className="fixed top-0 left-0 right-0 h-1 bg-neon-blue origin-left z-[100] shadow-[0_0_10px_#00f2ff]"
+      className="fixed top-0 left-0 right-0 h-1 bg-neon-blue origin-left z-[100] shadow-[0_0_10px_#00f2ff] pointer-events-none"
       style={{ scaleX }}
     />
   );
@@ -38,7 +38,7 @@ const CursorGlow = () => {
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
 
-  const springConfig = { damping: 25, stiffness: 150 };
+  const springConfig = { damping: 30, stiffness: 80 };
   const cursorX = useSpring(mouseX, springConfig);
   const cursorY = useSpring(mouseY, springConfig);
 
